@@ -23,7 +23,6 @@ class Aritmatika {
         return a / b;
     }
 
-    // Method untuk menyederhanakan pecahan
     public void sederhana(int pembilang, int penyebut) {
         int gcd = findGCD(pembilang, penyebut);
         pembilang /= gcd;
